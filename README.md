@@ -1,5 +1,7 @@
 # Guition JC1060P470C_I_W_Y: building firmware from scratch (ESP-IDF)
 
+All coded using claude, trail and error and referencing https://github.com/wegi1/ESP32P4-JC1060P470C-I_W_Y 
+
 Everything needed to bring up this 7" ESP32-P4 panel with plain ESP-IDF + LVGL. It covers the hardware map, toolchain,
 component versions, `sdkconfig.defaults`, partition table, the display init table and timings that actually work,
 touch, backlight, Wi-Fi / Bluetooth through the ESP32-C6, and the OV02C10 camera. All of it is taken from a
